@@ -11,4 +11,7 @@ Instructions for contribution:
 * Add a `Capture.PNG` file (screenshot of data viz) to the gh-pages
   branch of that repo.
 * Add `your_github_username/new_github_repo` on a new line in
-  [repos.txt](repos.txt).
+  [repos.txt](repos.txt) via a PR.
+* I will run the code in [repos.R](repos.R) to update and push the
+  changes to the gh-pages branch of this repo.
+* Your viz will appear as a new row on https://animint.github.io/gallery/

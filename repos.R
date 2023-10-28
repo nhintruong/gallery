@@ -11,7 +11,7 @@ get_repo_row <- function(repo){
   if(!file.exists(Capture.PNG)){
     stop(sprintf("gh-pages branch of %s should contain file named Capture.PNG (screenshot of data viz)", repo))
   }
-  repo.png <- sprintf("repos/%s.png", repo)
+  repo.png <- sprintf("%s/repos/%s.png", gh_pages, repo)
   user.dir <- dirname(repo.png)
   dir.create(user.dir, showWarnings = FALSE, recursive = TRUE)
   file.copy(Capture.PNG, repo.png)
@@ -52,4 +52,12 @@ for(repo in repos.dt$repo){
 }
 (meta.dt <- rbindlist(meta.dt.list))
 (error.dt <- rbindlist(error.dt.list))
-
+fwrite(meta.dt, file.path(gh_pages, "meta.csv"))
+fwrite(error.dt, file.path(gh_pages, "error.csv"))
+file.copy("index.Rmd", gh_pages)
+rmarkdown::render(file.path(gh_pages, "index.Rmd"))
+to_add <- c("*.csv", "repos/*/*.png", "index.html")
+gert::git_add(to_add, repo=gh_pages)
+gert::git_commit(paste("update", add.POSIXct), repo=gh_pages)
+gert::git_remote_add("git@github.com:animint/gallery.git", "gh", repo=gh_pages)
+gert::git_push("gh", repo=gh_pages)
