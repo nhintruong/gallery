@@ -54,7 +54,7 @@ for(repo in repos.dt$repo){
 (error.dt <- rbindlist(error.dt.list))
 fwrite(meta.dt, file.path(gh_pages, "meta.csv"))
 fwrite(error.dt, file.path(gh_pages, "error.csv"))
-file.copy("index.Rmd", gh_pages)
+file.copy("index.Rmd", gh_pages, overwrite = TRUE)
 rmarkdown::render(file.path(gh_pages, "index.Rmd"))
 to_add <- c("*.csv", "repos/*/*.png", "index.html")
 gert::git_add(to_add, repo=gh_pages)

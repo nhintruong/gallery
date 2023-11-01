@@ -14,7 +14,7 @@ ahref <- function(href, text){
 ```
 
 ```{r}
-myread <- function(csv){
+myread <- function(csv, repo.col){
   nc::capture_first_df(
     fread(csv),
     repo=list(user=".*?", "/", repo_only=".*")
@@ -30,16 +30,20 @@ myread <- function(csv){
   )][
   , repo.link := ahref(
     sprintf("https://github.com/%s/tree/gh-pages", repo),
-    repo)
+    get(repo.col))
   ]
 }
-meta.dt <- myread("meta.csv")
-error.dt <- myread("error.csv")
+meta.dt <- myread("meta.csv", "title")[
+  , source.link := ahref(
+    source,
+    commit.POSIXct)
+]
+error.dt <- myread("error.csv", "repo")
 ```
 
 ```{r}
 knitr::kable(meta.dt[, .(
-  viz.link, repo.link, source, created=commit.POSIXct
+  viz.link, repo.link, source.link
 )])
 download <- function(csv){
   cat(ahref(csv, paste("Download this table: ", csv)))
