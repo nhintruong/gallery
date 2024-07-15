@@ -1,4 +1,3 @@
 add.POSIXct,viz_owner_repo,error
-2024-07-14T19:12:24.278623Z,tdhock/tdhock-figure-nnet-regression-degrees,the server did not provide a certificate
-2024-07-14T19:12:24.278623Z,tdhock/animint-figure-nnet-regression-degrees,the server did not provide a certificate
-2024-07-14T19:12:24.278623Z,nhintruong/Tornado-select-multiple-states,the server did not provide a certificate
+2024-07-15T05:42:30.790354Z,tdhock/tdhock-figure-nnet-regression-degrees,gh-pages branch of tdhock/tdhock-figure-nnet-regression-degrees should contain file named Capture.PNG (screenshot of data viz)
+2024-07-15T05:42:30.790354Z,tdhock/animint-figure-nnet-regression-degrees,plot.json file in gh-pages branch of tdhock/animint-figure-nnet-regression-degrees should have element named title which should be string describing the data viz
