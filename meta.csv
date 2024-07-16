@@ -36,3 +36,5 @@ add.POSIXct,viz_owner_repo,commit.POSIXct,source,title
 2024-07-10T07:09:31.260003Z,tdhock/2024-06-26-neuroblastomaProcessed-combinations,2024-06-26T12:54:32Z,https://github.com/tdhock/max-generalized-auc/blob/master/figure-neuroblastomaProcessed-combinations-interactive.R,Generalized ROC curve metrics
 2024-07-10T07:09:31.260003Z,nhintruong/breakpoints,2024-07-10T06:22:56Z,https://github.com/animint/animint2/blob/4b1049bc1d8ee8dbd78b31f52a5863496fae5931/inst/examples/breakpoints.R,breakpoints select multiple segmentation models
 2024-07-15T05:42:30.790354Z,nhintruong/Tornado-select-multiple-states,2024-07-14T16:46:36Z,https://github.com/tdhock/animint-paper/blob/ff0e123bb13b2f94e79ded8ab660e01f84c78958/examples/tornado/viz.R#L5,Tornado select multiple states
+2024-07-16T19:27:30.967598Z,nhintruong/Figure-Penalty-Learning,2024-07-16T19:25:25Z,https://github.com/tdhock/mmit-paper/blob/master/figure-penaltyLearning.R,Penalty Learning
+2024-07-16T19:27:30.967598Z,nhintruong/Figure-PeakSegPDPA-demo,2024-07-16T19:26:08Z,https://github.com/tdhock/PeakSegFPOP-paper/blob/master/figure-PeakSegPDPA-demo.R,Constrained Pruned Dynamic Programming Algorithm
