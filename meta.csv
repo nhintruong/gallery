@@ -38,3 +38,4 @@ add.POSIXct,viz_owner_repo,commit.POSIXct,source,title
 2024-07-15T05:42:30.790354Z,nhintruong/Tornado-select-multiple-states,2024-07-14T16:46:36Z,https://github.com/tdhock/animint-paper/blob/ff0e123bb13b2f94e79ded8ab660e01f84c78958/examples/tornado/viz.R#L5,Tornado select multiple states
 2024-07-16T19:27:30.967598Z,nhintruong/Figure-Penalty-Learning,2024-07-16T19:25:25Z,https://github.com/tdhock/mmit-paper/blob/master/figure-penaltyLearning.R,Penalty Learning
 2024-07-16T19:27:30.967598Z,nhintruong/Figure-PeakSegPDPA-demo,2024-07-16T19:26:08Z,https://github.com/tdhock/PeakSegFPOP-paper/blob/master/figure-PeakSegPDPA-demo.R,Constrained Pruned Dynamic Programming Algorithm
+2024-07-16T19:31:45.259024Z,nhintruong/Constrained-PDPA-Normal-Real,2024-07-16T19:31:38Z,https://github.com/tdhock/PeakSegFPOP-paper/blob/aa762a058cf592055b03b6ffaaeac62e0ce78cf5/figure-constrained-PDPA-normal-real.R,Constrained Pruned Dynamic Programming Algorithm
