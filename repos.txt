@@ -39,3 +39,6 @@ nhintruong/Tornado-select-multiple-states
 nhintruong/Constrained-PDPA-Normal-Real
 nhintruong/Figure-Penalty-Learning
 nhintruong/Figure-PeakSegPDPA-demo
+nhintruong/WorldBank-paper
+nhintruong/intreg-BIC
+nhintruong/Montreal-cyclists-and-accidents
