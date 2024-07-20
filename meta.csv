@@ -42,3 +42,4 @@ add.POSIXct,viz_owner_repo,commit.POSIXct,source,title
 2024-07-18T10:38:18.997190Z,nhintruong/intreg-BIC,2024-07-18T09:52:18Z,https://github.com/tdhock/animint/blob/master/inst/examples/intreg.R,Intreg BIC
 2024-07-18T10:38:18.997190Z,nhintruong/Montreal-cyclists-and-accidents,2024-07-18T10:32:02Z,https://github.com/tdhock/montreal-velos/blob/2e4878295cf5886061b781e5eba018d275bdfd74/figure-timeseries.R,"Montreal cyclists and accidents, 2009-2014"
 2024-07-18T10:43:17.525443Z,nhintruong/WorldBank-paper,2024-07-18T10:43:10Z,https://github.com/tdhock/animint/blob/master/inst/examples/WorldBank-paper.R,World Bank data (Animint paper version)
+2024-07-20T18:52:23.279750Z,nhintruong/WorldBank-facets,2024-07-20T13:42:51Z,https://github.com/tdhock/animint/blob/master/inst/examples/WorldBank-facets.R,"World Bank data (multiple selection, facets)"
