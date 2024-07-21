@@ -37,7 +37,7 @@ EngineerDanny/EngineerDanny-necromass-figure-one-network
 nhintruong/breakpoints
 nhintruong/Tornado-select-multiple-states
 nhintruong/Constrained-PDPA-Normal-Real
-nhintruong/Figure-Penalty-Learning
+nhintruong/Max-margin-interval-tree
 nhintruong/Figure-PeakSegPDPA-demo
 nhintruong/WorldBank-paper
 nhintruong/intreg-BIC
