@@ -44,3 +44,4 @@ add.POSIXct,viz_owner_repo,commit.POSIXct,source,title
 2024-07-18T10:43:17.525443Z,nhintruong/WorldBank-paper,2024-07-18T10:43:10Z,https://github.com/tdhock/animint/blob/master/inst/examples/WorldBank-paper.R,World Bank data (Animint paper version)
 2024-07-20T18:52:23.279750Z,nhintruong/WorldBank-facets,2024-07-20T13:42:51Z,https://github.com/tdhock/animint/blob/master/inst/examples/WorldBank-facets.R,"World Bank data (multiple selection, facets)"
 2024-07-21T18:57:40.674190Z,nhintruong/Central-American-temperature-maps,2024-07-21T07:54:16Z,https://github.com/tdhock/animint-paper/blob/3145684d8a164d8d576fc00a078a72083b4d5389/examples/climate/viz.R,Central American temperature maps
+2024-07-21T19:11:15.286253Z,nhintruong/Max-margin-interval-tree,2024-07-16T19:25:25Z,https://github.com/tdhock/mmit-paper/blob/master/figure-penaltyLearning.R,Penalty Learning
